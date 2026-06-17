@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import surajImg from "../../surajj.png";
+import surajImg from "../../surajj3.png";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);

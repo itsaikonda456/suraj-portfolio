@@ -1,5 +1,5 @@
 import React from "react";
-import surajjImg from "../../surajj.png";
+import surajjImg from "../../surajj3.png";
 
 const About = () => {
   return (
