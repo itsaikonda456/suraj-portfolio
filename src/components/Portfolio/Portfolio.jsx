@@ -69,7 +69,7 @@ const VIDEOS = [
   },
 ];
 
-const FILTERS = ["All", "Wedding", "Travel", "Commercial", "Reels"];
+// const FILTERS = ["All", "Wedding", "Travel", "Commercial", "Reels"];
 
 /* ─── Icons ─── */
 const PlayIcon = () => (
@@ -912,7 +912,7 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className="port3__filters">
+          {/* <div className="port3__filters">
             {FILTERS.map((f) => (
               <button
                 key={f}
@@ -922,7 +922,7 @@ const Portfolio = () => {
                 {f}
               </button>
             ))}
-          </div>
+          </div> */}
 
           <div className="port3__grid">
             {list.length === 0 ? (
